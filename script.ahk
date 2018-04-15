@@ -20,3 +20,14 @@ else
  SetCapsLockState, off
 }
 return
+
+^!u::Send {ü}
+^!+u::Send {Ü}
+^!a::Send {ä}
+^!+a::Send {Ä}
+^!o::Send {ö}
+^!+o::Send {Ö}
+^!s::Send {ß}
+^!p::Send {§}
+
+^!m::Send {AppsKey}
