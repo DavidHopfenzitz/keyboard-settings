@@ -21,13 +21,14 @@ else
 }
 return
 
-^!u::Send {ü}
-^!+u::Send {Ü}
-^!a::Send {ä}
-^!+a::Send {Ä}
-^!o::Send {ö}
-^!+o::Send {Ö}
-^!s::Send {ß}
-^!p::Send {§}
+^!u::Send {Ã¼}
+^!+u::Send {Ãœ}
+^!a::Send {Ã¤}
+^!+a::Send {Ã„}
+^!o::Send {Ã¶}
+^!+o::Send {Ã–}
+^!s::Send {ÃŸ}
+^!p::Send {Â§}
+^!4::Send {â‚¬}
 
 ^!m::Send {AppsKey}
